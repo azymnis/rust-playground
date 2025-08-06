@@ -7,6 +7,9 @@
 // - Shadowing
 //
 // Fix the compilation errors in this program!
+//
+// Run with: cargo run
+// Check compilation: cargo check
 
 fn main() {
     // ERROR 1: This variable is immutable

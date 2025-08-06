@@ -1,6 +1,9 @@
 // Week 2, Exercise 6: Practical Ownership Scenarios
 //
 // Real-world examples of ownership patterns you'll encounter
+//
+// Run with: cargo run
+// Check compilation: cargo check
 
 use std::collections::HashMap;
 

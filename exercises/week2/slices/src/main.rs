@@ -2,6 +2,9 @@
 //
 // Slices are references to a contiguous sequence of elements.
 // They're a key part of writing idiomatic Rust.
+//
+// Run with: cargo run
+// Check compilation: cargo check
 
 fn main() {
     // Part 1: String slices (&str)

@@ -5,6 +5,7 @@ Welcome to your Rust learning journey! This guide is structured to take you from
 ## Prerequisites
 - Install Rust: https://www.rust-lang.org/tools/install
 - Install VS Code with rust-analyzer extension (recommended)
+- Verify installation: `rustc --version` and `cargo --version`
 
 ## Learning Path Overview
 
@@ -19,10 +20,13 @@ Welcome to your Rust learning journey! This guide is structured to take you from
 - Comments and documentation
 
 #### Exercises:
-1. **Hello World variations** - Print different messages
-2. **Temperature converter** - Fahrenheit to Celsius
-3. **Fibonacci generator** - Using loops and recursion
-4. **Guessing game** - From the Rust Book
+1. **Hello World variations** - `exercises/week1/hello_world`
+2. **Variables and mutability** - `exercises/week1/variables`
+3. **Functions** - `exercises/week1/functions`
+4. **Additional practice** - Create new Cargo projects for:
+   - Temperature converter - Fahrenheit to Celsius
+   - Fibonacci generator - Using loops and recursion
+   - Guessing game - From the Rust Book
 
 ### Phase 2: Ownership System (Week 2-3)
 **Goal**: Understand Rust's unique memory management model
@@ -35,10 +39,12 @@ Welcome to your Rust learning journey! This guide is structured to take you from
 - Lifetimes basics
 
 #### Exercises:
-1. **String manipulation** - Practice ownership transfers
-2. **Vector operations** - Borrowing in collections
-3. **Function parameters** - Different ways to pass data
-4. **Lifetime annotations** - Simple examples
+1. **Ownership basics** - `exercises/week2/ownership_basics`
+2. **Borrowing** - `exercises/week2/borrowing`
+3. **Slices** - `exercises/week2/slices`
+4. **Ownership with functions** - `exercises/week2/ownership_functions`
+5. **Lifetimes introduction** - `exercises/week2/lifetimes_intro`
+6. **Practical ownership** - `exercises/week2/practical_ownership`
 
 ### Phase 3: Type System (Week 3-4)
 **Goal**: Master Rust's powerful type system
@@ -83,9 +89,9 @@ Welcome to your Rust learning journey! This guide is structured to take you from
 - Async programming basics
 
 #### Projects:
-1. **CLI Application** - File organizer or todo list
-2. **Web API** - Simple REST service
-3. **Systems programming** - File watcher or process monitor
+1. **CLI Application** - `projects/cli-app` - Build a file organizer or todo list
+2. **Web API** - `projects/web-api` - Create a simple REST service
+3. **Systems programming** - Create a new project for file watcher or process monitor
 
 ## Resources
 
@@ -129,9 +135,40 @@ rust-playground/
 ## Getting Started
 
 1. Install Rust using rustup
-2. Run `rustc --version` to verify installation
-3. Start with exercises/week1/
-4. Follow along with The Rust Book
-5. Commit your progress regularly!
+2. Run `rustc --version` and `cargo --version` to verify installation
+3. From the root directory, build all projects: `cargo build --workspace`
+4. Start with week1 exercises:
+   ```bash
+   cd exercises/week1/hello_world
+   cargo run
+   ```
+5. Follow along with The Rust Book
+6. Commit your progress regularly!
+
+## Running Exercises
+
+Each exercise is a Cargo project. To work on an exercise:
+
+```bash
+# Navigate to the exercise
+cd exercises/week1/hello_world
+
+# Run the exercise
+cargo run
+
+# Check for compilation errors
+cargo check
+
+# Run tests (if any)
+cargo test
+```
+
+You can also run from the root directory:
+
+```bash
+# Run a specific exercise from root
+cargo run -p hello_world
+cargo run -p ownership_basics
+```
 
 Happy learning! 🦀

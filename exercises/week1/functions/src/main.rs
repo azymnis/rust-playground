@@ -5,6 +5,9 @@
 // - Return values
 // - Expressions vs statements
 // - Early returns
+//
+// Run with: cargo run
+// Check compilation: cargo check
 
 fn main() {
     // Task 1: Call a simple function

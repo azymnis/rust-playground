@@ -2,6 +2,9 @@
 //
 // Understanding how ownership works with function parameters and return values
 // is crucial for writing Rust programs.
+//
+// Run with: cargo run
+// Check compilation: cargo check
 
 fn main() {
     // Part 1: Passing ownership to functions

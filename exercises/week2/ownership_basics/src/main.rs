@@ -2,6 +2,9 @@
 //
 // This exercise demonstrates the fundamental ownership rules in Rust.
 // Fix the compilation errors to understand how ownership works.
+//
+// Run with: cargo run
+// Check compilation: cargo check
 
 fn main() {
     // Part 1: Move semantics with String (heap-allocated)

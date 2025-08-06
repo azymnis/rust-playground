@@ -2,6 +2,9 @@
 //
 // Lifetimes are Rust's way of ensuring references are valid.
 // The compiler often infers them, but sometimes we need to be explicit.
+//
+// Run with: cargo run
+// Check compilation: cargo check
 
 fn main() {
     // Part 1: Lifetimes in practice (compiler infers them)

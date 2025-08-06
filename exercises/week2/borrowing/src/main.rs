@@ -2,6 +2,9 @@
 //
 // Learn the difference between immutable and mutable borrows.
 // Fix the compilation errors to understand borrowing rules.
+//
+// Run with: cargo run
+// Check compilation: cargo check
 
 fn main() {
     // Part 1: Immutable borrowing
