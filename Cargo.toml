@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = [ "exercises/week1/control_flow", "exercises/week1/functions","exercises/week1/hello_world", "exercises/week1/temperature_converter", "exercises/week1/variables", "exercises/week2/borrowing", "exercises/week2/lifetimes_intro", "exercises/week2/ownership_basics", "exercises/week2/ownership_functions", "exercises/week2/practical_ownership", "exercises/week2/slices", "projects/cli-app", "projects/web-api"]
+members = [ "exercises/week1/control_flow", "exercises/week1/functions","exercises/week1/hello_world", "exercises/week1/temperature_converter", "exercises/week1/variables", "exercises/week2/borrowing", "exercises/week2/lifetimes_intro", "exercises/week2/ownership_basics", "exercises/week2/ownership_functions", "exercises/week2/practical_ownership", "exercises/week2/slices", "exercises/week3/custom_types", "exercises/week3/enums_basics", "exercises/week3/methods_impl", "exercises/week3/option_result", "exercises/week3/pattern_matching", "exercises/week3/structs_basics", "exercises/week4/generics", "exercises/week4/iterators_closures", "exercises/week4/modules_crates", "exercises/week4/smart_pointers", "exercises/week4/traits_basics", "exercises/week5/atomics", "exercises/week5/channels", "exercises/week5/concurrent_structures", "exercises/week5/shared_state", "exercises/week5/testing_concurrency", "exercises/week5/thread_basics", "projects/cli-app", "projects/web-api"]
 
 [workspace.package]
 edition = "2021"

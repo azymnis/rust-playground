@@ -62,7 +62,7 @@ Welcome to your Rust learning journey! This guide is structured to take you from
 3. **Error handling** - Result type practice
 4. **Mini database** - Combining concepts
 
-### Phase 4: Advanced Concepts (Week 4-5)
+### Phase 4: Advanced Concepts (Week 4)
 **Goal**: Learn intermediate Rust features
 
 #### Topics to Cover:
@@ -78,7 +78,48 @@ Welcome to your Rust learning journey! This guide is structured to take you from
 3. **Trait implementations** - Display, Debug, etc.
 4. **Module organization** - Multi-file project
 
-### Phase 5: Practical Programming (Week 5-6)
+### Phase 5: Concurrency and Parallelism (Week 5)
+**Goal**: Master safe concurrent programming in Rust
+
+#### Topics to Cover:
+- Threads and thread spawning
+- Message passing with channels (mpsc)
+- Shared state with Mutex<T> and Arc<T>
+- Atomic types and memory ordering
+- Send and Sync traits
+- Deadlock prevention
+- Data races and race conditions
+- Thread pools and rayon crate
+
+#### Exercises:
+1. **Thread basics** - `exercises/week5/thread_basics`
+   - Spawning threads
+   - Thread handles and join
+   - Move closures with threads
+2. **Channels** - `exercises/week5/channels`
+   - mpsc (multiple producer, single consumer)
+   - Thread communication patterns
+   - Select-like operations
+3. **Shared state** - `exercises/week5/shared_state`
+   - Mutex for mutual exclusion
+   - Arc for shared ownership
+   - RwLock for reader-writer scenarios
+4. **Atomics** - `exercises/week5/atomics`
+   - Atomic types (AtomicBool, AtomicUsize, etc.)
+   - Memory ordering (Relaxed, Acquire, Release, SeqCst)
+   - Lock-free programming basics
+5. **Concurrent data structures** - `exercises/week5/concurrent_structures`
+   - Thread-safe queue
+   - Concurrent counter
+   - Producer-consumer pattern
+6. **Testing concurrency** - `exercises/week5/testing_concurrency`
+   - Testing for race conditions
+   - Deterministic testing strategies
+   - Using thread sanitizers
+   - Stress testing concurrent code
+   - Property-based testing for concurrency
+
+### Phase 6: Practical Programming (Week 6)
 **Goal**: Apply knowledge to real projects
 
 #### Topics to Cover:
@@ -87,11 +128,13 @@ Welcome to your Rust learning journey! This guide is structured to take you from
 - Documentation
 - Common crates (serde, clap, tokio)
 - Async programming basics
+- Performance optimization
 
 #### Projects:
 1. **CLI Application** - `projects/cli-app` - Build a file organizer or todo list
 2. **Web API** - `projects/web-api` - Create a simple REST service
-3. **Systems programming** - Create a new project for file watcher or process monitor
+3. **Concurrent application** - `projects/concurrent-app` - Build a multi-threaded web scraper or parallel data processor
+4. **Systems programming** - Create a new project for file watcher or process monitor
 
 ## Resources
 
@@ -104,6 +147,8 @@ Welcome to your Rust learning journey! This guide is structured to take you from
 - [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
 - [Comprehensive Rust (Google's Course)](https://google.github.io/comprehensive-rust/)
 - [Exercism Rust Track](https://exercism.org/tracks/rust)
+- [The Rustonomicon](https://doc.rust-lang.org/nomicon/) - Advanced unsafe Rust
+- [Rust Atomics and Locks](https://marabos.nl/atomics/) - Deep dive into concurrency
 
 ## Tips for Success
 

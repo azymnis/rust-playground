@@ -3,7 +3,15 @@
 version = 3
 
 [[package]]
+name = "atomics"
+version = "0.1.0"
+
+[[package]]
 name = "borrowing"
+version = "0.1.0"
+
+[[package]]
+name = "channels"
 version = "0.1.0"
 
 [[package]]
@@ -11,7 +19,19 @@ name = "cli_app"
 version = "0.1.0"
 
 [[package]]
+name = "concurrent_structures"
+version = "0.1.0"
+
+[[package]]
 name = "control_flow"
+version = "0.1.0"
+
+[[package]]
+name = "custom_types"
+version = "0.1.0"
+
+[[package]]
+name = "enums_basics"
 version = "0.1.0"
 
 [[package]]
@@ -19,11 +39,31 @@ name = "functions"
 version = "0.1.0"
 
 [[package]]
+name = "generics"
+version = "0.1.0"
+
+[[package]]
 name = "hello_world"
 version = "0.1.0"
 
 [[package]]
+name = "iterators_closures"
+version = "0.1.0"
+
+[[package]]
 name = "lifetimes_intro"
+version = "0.1.0"
+
+[[package]]
+name = "methods_impl"
+version = "0.1.0"
+
+[[package]]
+name = "modules_crates"
+version = "0.1.0"
+
+[[package]]
+name = "option_result"
 version = "0.1.0"
 
 [[package]]
@@ -35,7 +75,15 @@ name = "ownership_functions"
 version = "0.1.0"
 
 [[package]]
+name = "pattern_matching"
+version = "0.1.0"
+
+[[package]]
 name = "practical_ownership"
+version = "0.1.0"
+
+[[package]]
+name = "shared_state"
 version = "0.1.0"
 
 [[package]]
@@ -43,7 +91,27 @@ name = "slices"
 version = "0.1.0"
 
 [[package]]
+name = "smart_pointers"
+version = "0.1.0"
+
+[[package]]
+name = "structs_basics"
+version = "0.1.0"
+
+[[package]]
 name = "temperature_converter"
+version = "0.1.0"
+
+[[package]]
+name = "testing_concurrency"
+version = "0.1.0"
+
+[[package]]
+name = "thread_basics"
+version = "0.1.0"
+
+[[package]]
+name = "traits_basics"
 version = "0.1.0"
 
 [[package]]
