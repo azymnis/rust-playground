@@ -5,9 +5,16 @@
 // - Return values
 // - Expressions vs statements
 // - Early returns
+// - Module system and imports
 //
 // Run with: cargo run
 // Check compilation: cargo check
+
+// Declare the module (tells Rust to look for math_functions.rs)
+mod math_functions;
+
+// Import specific functions from the module
+use math_functions::{greeting, greet_person, add, multiply, check_even, calculate_area};
 
 fn main() {
     // Task 1: Call a simple function
@@ -21,37 +28,18 @@ fn main() {
     println!("5 + 3 = {}", sum);
     
     // Task 4: Complete these function calls
-    // let product = multiply(4, 7);
-    // println!("4 * 7 = {}", product);
+    let product = multiply(4, 7);
+    println!("4 * 7 = {}", product);
     
-    // let is_even = check_even(42);
-    // println!("Is 42 even? {}", is_even);
+    let is_even = check_even(42);
+    println!("Is 42 even? {}", is_even);
+
+    let area = calculate_area(10, 5);
+    println!("Area: {}", area);
+    
+    // Alternative way: use the module prefix directly
+    println!("\nUsing module prefix:");
+    math_functions::greeting();
+    let sum2 = math_functions::add(10, 20);
+    println!("10 + 20 = {}", sum2);
 }
-
-fn greeting() {
-    println!("Hello from a function!");
-}
-
-fn greet_person(name: &str) {
-    println!("Hello, {}!", name);
-}
-
-fn add(x: i32, y: i32) -> i32 {
-    // Note: no semicolon - this is an expression
-    x + y
-}
-
-// Task 4: Implement these functions
-// fn multiply(x: i32, y: i32) -> i32 {
-//     // Your code here
-// }
-
-// fn check_even(n: i32) -> bool {
-//     // Your code here
-// }
-
-// Task 5: Fix this function
-// fn calculate_area(width: i32, height: i32) {
-//     let area = width * height;
-//     area  // What's wrong here?
-// }

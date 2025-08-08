@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = [ "exercises/week1/functions","exercises/week1/hello_world", "exercises/week1/variables", "exercises/week2/borrowing", "exercises/week2/lifetimes_intro", "exercises/week2/ownership_basics", "exercises/week2/ownership_functions", "exercises/week2/practical_ownership", "exercises/week2/slices", "projects/cli-app", "projects/web-api"]
+members = [ "exercises/week1/control_flow", "exercises/week1/functions","exercises/week1/hello_world", "exercises/week1/temperature_converter", "exercises/week1/variables", "exercises/week2/borrowing", "exercises/week2/lifetimes_intro", "exercises/week2/ownership_basics", "exercises/week2/ownership_functions", "exercises/week2/practical_ownership", "exercises/week2/slices", "projects/cli-app", "projects/web-api"]
 
 [workspace.package]
 edition = "2021"
